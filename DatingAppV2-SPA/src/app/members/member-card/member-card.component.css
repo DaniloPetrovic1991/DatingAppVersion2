@@ -34,3 +34,7 @@
 .animate {
   transition: all 0.3 ease-in-out;
 }
+
+.card {
+  background-color: turquoise;
+}
