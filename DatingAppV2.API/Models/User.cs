@@ -38,5 +38,8 @@ namespace DatingAppV2.API.Models
         public ICollection<Like> Likers {get; set;}
         
         public ICollection<Like> Likees {get; set;}
+
+        public ICollection<Message> MessegesSend {get; set;}
+        public ICollection<Message> MessegesReceived {get; set;}
     }
 }
